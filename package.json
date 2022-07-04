@@ -1,0 +1,27 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "publish": "node ./scripts/publish.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blankPen/blog.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "pengzhen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blankPen/blog/issues"
+  },
+  "homepage": "https://github.com/blankPen/blog#readme",
+  "devDependencies": {
+    "@octokit/rest": "^18.12.0",
+    "fs-extra": "^7.0.0",
+    "inquirer": "^6.2.0"
+  }
+}
